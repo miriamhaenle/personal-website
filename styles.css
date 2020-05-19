@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: 'Roboto', sans-serif;
   font-size: 112.5%;
@@ -20,4 +23,36 @@ p {
 a {
   text-decoration: none;
   border-bottom: 4px dotted;
+}
+
+.box {
+  background: papayawhip;
+  width: 80vw;
+  padding: 0 15px;
+  margin: 50px 0;
+  border: 5px dashed deepskyblue;
+}
+
+.headline2 {
+  color: deeppink;
+}
+
+.middle-p {
+  background: azure;
+  padding: 20px;
+  text-align: end;
+}
+
+.box2 {
+  width: 50vh;
+  padding: 0 20px 10px 20px;
+  background: hotpink;
+  border: 5px groove palegoldenrod;
+  box-shadow: black;
+  margin: 0 auto;
+}
+
+.box3 {
+  background-color: aquamarine;
+  border: 2px dotted purple;
 }
