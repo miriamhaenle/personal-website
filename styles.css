@@ -1,8 +1,23 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 112.5%;
+  line-height: 1.5;
   color: #333;
   background-color: #efefef;
   max-width: 1080px;
   margin: 0 auto;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+p {
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 4px dotted;
 }
