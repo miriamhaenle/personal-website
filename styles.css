@@ -56,3 +56,20 @@ a {
   background-color: aquamarine;
   border: 2px dotted purple;
 }
+
+.tags {
+  text-align: end;
+}
+.tags > li {
+  color: white;
+  display: inline-block;
+  padding: 4px 12px;
+  margin: 4px 2px;
+  background: salmon;
+  border: 2px solid salmon;
+  border-radius: 2px;
+}
+
+.tags li:first-child {
+  background: hotpink;
+}
